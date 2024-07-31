@@ -21,7 +21,15 @@ function Navbar() {
          <div className="div">  <button className="text-white text-[20px] bg-[#425934]">Shop the deals!</button></div> 
           </div>
        
-        <div className="h-2/5 w-full"></div>
+        <div className="h-2/5 w-full ">
+        <ul className="flex gap-52 items-center justify-center">
+          <li>Home </li>
+          <li>About us</li>
+          <li>Wishlist</li>
+          <li>Add to cart</li>
+        </ul>
+        
+        </div>
         <div className="h-2/5 w-full bg-[#F2F2F2] flex items-center justify-center">
           <div className="w-3/4 h-3/4  flex items-center justify-center">
             <input className="h-full w-full" />
