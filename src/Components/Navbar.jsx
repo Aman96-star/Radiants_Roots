@@ -1,9 +1,10 @@
 import React from "react";
+// jaisdfauif
 
 function Navbar() {
   return (
     <>
-      <div className="h-[230px] w-full">
+      <div className="border border-black h-[230px] w-full">
        
           <div className="h-1/5 w-full  text-[#425934] bg-[#CFE03F] font-allerta  flex gap-11 items-center justify-center">
           <a href="#">

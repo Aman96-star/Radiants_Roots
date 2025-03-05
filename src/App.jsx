@@ -1,6 +1,10 @@
 import { useState } from 'react'
 import './App.css'
 import Navbar from './Components/Navbar'
+import Homepage from './Components/homPage'
+import Cart from './Components/cart'
+import SingleProduct from './Components/singleProduct'
+import Slider from './Components/slider'
 
 function App() {
   
@@ -8,8 +12,9 @@ function App() {
   return (
     <>
      <Navbar/>
-    <div className="h-dvh w-dvw"></div>
-    
+      {/* <Homepage/> */}
+      <Slider/>
+      {/* <Cart/> */}
     </>
   )
 }
