@@ -14,6 +14,9 @@ function SingleProduct({ productId }){
         }
         return res.json();
       })
+
+      // sdpsaidoids
+      
       .then((data) => {
         // Find the product with the given productId
         const foundProduct = data.products.find((product) => product.id === productId);
